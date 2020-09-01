@@ -1,0 +1,107 @@
+/* sass --update C:\Users\Administrator\Desktop\Hackstart\2\2-3\2-3-1:C:\Users\Administrator\Desktop\Hackstart\2\2-3\2-3-1 */
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3, .Nav {
+  width: 22.6%;
+}
+
+.col-4, .SideList, .header > div {
+  width: 30.93%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8, .Images {
+  width: 64.26%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.divHandF, .Nav, .header > div {
+  background-color: #B7B7B7;
+  height: 50px;
+  color: #FDFDFD;
+  line-height: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.divInSection, .SideList, .Images {
+  background-color: #666666;
+  height: 600px;
+  color: #FDFDFD;
+  line-height: 600px;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.header {
+  background-color: black;
+}
+
+.header > div {
+  margin: 1%;
+  /*width: 31%;*/
+  display: inline-block;
+}
+
+.section {
+  background-color: #B7B7B7;
+}
+
+.Images {
+  margin: 1.5% 1% 1.5% 1%;
+  /*width: 64.5%;*/
+  display: inline-block;
+  background-color: #D1E0E3;
+}
+
+.SideList {
+  margin: 1%;
+  /*width: 31%;*/
+  display: inline-block;
+  background-color: #D8D3E7;
+}
+
+.footer {
+  background-color: black;
+}
+
+.Nav {
+  margin: 1%;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=index.css.map */

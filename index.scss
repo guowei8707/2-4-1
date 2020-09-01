@@ -1,0 +1,122 @@
+/* sass --update C:\Users\Administrator\Desktop\Hackstart\2\2-3\2-3-1:C:\Users\Administrator\Desktop\Hackstart\2\2-3\2-3-1 */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25% - 2.4%;
+}
+
+.col-4 {
+    width: 33.33% - 2.4%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66% - 2.4%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.divHandF {
+    background-color: #B7B7B7;
+    height: 50px;
+    color: #FDFDFD;
+    line-height: 50px;
+    text-align: center;
+
+    font: {
+        size: 24px;
+        weight: bold;
+    }
+}
+
+.divInSection {
+    background-color: #666666;
+    height: 600px;
+    color: #FDFDFD;
+    line-height: 600px;
+    text-align: center;
+
+    font: {
+        size: 64px;
+        weight: bold;
+    }
+}
+
+.header {
+    background-color: black;
+
+}
+
+.header>div {
+    @extend .divHandF;
+    @extend .col-4;
+    margin: 1%;
+    /*width: 31%;*/
+    display: inline-block;
+
+}
+
+.section {
+    background-color: #B7B7B7;
+}
+
+.Images {
+    @extend .divInSection;
+    @extend .col-8;
+    margin: 1.5% 1% 1.5% 1%;
+    /*width: 64.5%;*/
+    display: inline-block;
+    background-color: #D1E0E3;
+}
+
+.SideList {
+    @extend .divInSection;
+    @extend .col-4;
+    margin: 1%;
+    /*width: 31%;*/
+    display: inline-block;
+    background-color: #D8D3E7;
+}
+
+.footer {
+    background-color: black;
+}
+
+.Nav {
+    @extend .divHandF;
+    @extend .col-3;
+    margin: 1%;
+    display: inline-block;
+}
